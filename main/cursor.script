@@ -1,0 +1,49 @@
+function init(self)
+	msg.post("@system:", "toggle_physics_debug")
+	-- msg.post("@system:", "toggle_profile")
+	msg.post(".", "acquire_input_focus")
+	self.center = vmath.vector3(297, 520, 0) 
+	self.radius = 285 
+	self.speed = 3
+	self.t = 0
+	self.direction = 1
+end
+
+function final(self)
+	-- Add finalization code here
+	-- Remove this function if not needed
+end
+
+function update(self, dt)
+	self.t = self.t + dt * self.direction
+	local dx = math.sin(self.t * self.speed) * self.radius 
+	local dy = math.cos(self.t * self.speed) * self.radius
+	local pos = vmath.vector3() 
+	pos.x = self.center.x + dx 
+	pos.y = self.center.y + dy
+	go.set_position(pos)
+	if pos.y <= 290 then
+		self.direction = -1
+	elseif pos.x <= 12.2 then
+		-- print("nu")
+		self.direction = 1
+	end
+end
+
+function on_input(self, action_id, action)
+	if action_id == hash("touch") and action.pressed then    
+		local speed = self.direction
+		-- print(go.get_position("/pointer"))
+		if speed >= 1 then
+			self.direction = -1
+		elseif speed <= -1 then
+			self.direction = 1
+		end
+	end
+end
+
+
+function on_reload(self)
+	-- Add reload-handling code here
+	-- Remove this function if not needed
+end

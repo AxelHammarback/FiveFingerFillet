@@ -1,0 +1,467 @@
+name: "default"
+scale_along_z: 0
+embedded_instances {
+  id: "hand-base"
+  data: "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/main/assets.atlas\\\"\\n"
+  "default_animation: \\\"hand-base\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "f1"
+  data: "embedded_components {\n"
+  "  id: \"f1-s\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/main/assets.atlas\\\"\\n"
+  "default_animation: \\\"f1\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"f1\"\n"
+  "  type: \"collisionobject\"\n"
+  "  data: \"collision_shape: \\\"\\\"\\n"
+  "type: COLLISION_OBJECT_TYPE_TRIGGER\\n"
+  "mass: 0.0\\n"
+  "friction: 0.1\\n"
+  "restitution: 0.5\\n"
+  "group: \\\"default\\\"\\n"
+  "mask: \\\"default\\\"\\n"
+  "embedded_collision_shape {\\n"
+  "  shapes {\\n"
+  "    shape_type: TYPE_SPHERE\\n"
+  "    position {\\n"
+  "      x: -10.0\\n"
+  "      y: 52.0\\n"
+  "      z: 0.0\\n"
+  "    }\\n"
+  "    rotation {\\n"
+  "      x: 0.0\\n"
+  "      y: 0.0\\n"
+  "      z: 0.0\\n"
+  "      w: 1.0\\n"
+  "    }\\n"
+  "    index: 0\\n"
+  "    count: 1\\n"
+  "  }\\n"
+  "  data: 32.117\\n"
+  "}\\n"
+  "linear_damping: 0.0\\n"
+  "angular_damping: 0.0\\n"
+  "locked_rotation: false\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 282.0
+    y: -88.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "f2"
+  data: "embedded_components {\n"
+  "  id: \"f2-s\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/main/assets.atlas\\\"\\n"
+  "default_animation: \\\"f2\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"f2\"\n"
+  "  type: \"collisionobject\"\n"
+  "  data: \"collision_shape: \\\"\\\"\\n"
+  "type: COLLISION_OBJECT_TYPE_TRIGGER\\n"
+  "mass: 0.0\\n"
+  "friction: 0.1\\n"
+  "restitution: 0.5\\n"
+  "group: \\\"default\\\"\\n"
+  "mask: \\\"default\\\"\\n"
+  "embedded_collision_shape {\\n"
+  "  shapes {\\n"
+  "    shape_type: TYPE_SPHERE\\n"
+  "    position {\\n"
+  "      x: -3.0\\n"
+  "      y: 18.0\\n"
+  "      z: 0.0\\n"
+  "    }\\n"
+  "    rotation {\\n"
+  "      x: 0.0\\n"
+  "      y: 0.0\\n"
+  "      z: 0.0\\n"
+  "      w: 1.0\\n"
+  "    }\\n"
+  "    index: 0\\n"
+  "    count: 1\\n"
+  "  }\\n"
+  "  data: 28.3045\\n"
+  "}\\n"
+  "linear_damping: 0.0\\n"
+  "angular_damping: 0.0\\n"
+  "locked_rotation: false\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 152.0
+    y: 172.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "f3"
+  data: "embedded_components {\n"
+  "  id: \"f3-s\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/main/assets.atlas\\\"\\n"
+  "default_animation: \\\"f3\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: -136.0\n"
+  "    y: 33.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"f3\"\n"
+  "  type: \"collisionobject\"\n"
+  "  data: \"collision_shape: \\\"\\\"\\n"
+  "type: COLLISION_OBJECT_TYPE_TRIGGER\\n"
+  "mass: 0.0\\n"
+  "friction: 0.1\\n"
+  "restitution: 0.5\\n"
+  "group: \\\"default\\\"\\n"
+  "mask: \\\"default\\\"\\n"
+  "embedded_collision_shape {\\n"
+  "  shapes {\\n"
+  "    shape_type: TYPE_SPHERE\\n"
+  "    position {\\n"
+  "      x: -139.0\\n"
+  "      y: 67.0\\n"
+  "      z: 0.0\\n"
+  "    }\\n"
+  "    rotation {\\n"
+  "      x: 0.0\\n"
+  "      y: 0.0\\n"
+  "      z: 0.0\\n"
+  "      w: 1.0\\n"
+  "    }\\n"
+  "    index: 0\\n"
+  "    count: 1\\n"
+  "  }\\n"
+  "  data: 25.6445\\n"
+  "}\\n"
+  "linear_damping: 0.0\\n"
+  "angular_damping: 0.0\\n"
+  "locked_rotation: false\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 152.0
+    y: 172.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "f4"
+  data: "embedded_components {\n"
+  "  id: \"f4-s\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/main/assets.atlas\\\"\\n"
+  "default_animation: \\\"f4\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: -285.0\n"
+  "    y: 9.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"f4\"\n"
+  "  type: \"collisionobject\"\n"
+  "  data: \"collision_shape: \\\"\\\"\\n"
+  "type: COLLISION_OBJECT_TYPE_TRIGGER\\n"
+  "mass: 0.0\\n"
+  "friction: 0.1\\n"
+  "restitution: 0.5\\n"
+  "group: \\\"default\\\"\\n"
+  "mask: \\\"default\\\"\\n"
+  "embedded_collision_shape {\\n"
+  "  shapes {\\n"
+  "    shape_type: TYPE_SPHERE\\n"
+  "    position {\\n"
+  "      x: -281.0\\n"
+  "      y: 42.0\\n"
+  "      z: 0.0\\n"
+  "    }\\n"
+  "    rotation {\\n"
+  "      x: 0.0\\n"
+  "      y: 0.0\\n"
+  "      z: 0.0\\n"
+  "      w: 1.0\\n"
+  "    }\\n"
+  "    index: 0\\n"
+  "    count: 1\\n"
+  "  }\\n"
+  "  data: 25.6055\\n"
+  "}\\n"
+  "linear_damping: 0.0\\n"
+  "angular_damping: 0.0\\n"
+  "locked_rotation: false\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 152.0
+    y: 172.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "f5"
+  data: "embedded_components {\n"
+  "  id: \"f5-s\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/main/assets.atlas\\\"\\n"
+  "default_animation: \\\"f5\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: -365.0\n"
+  "    y: -52.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"f5\"\n"
+  "  type: \"collisionobject\"\n"
+  "  data: \"collision_shape: \\\"\\\"\\n"
+  "type: COLLISION_OBJECT_TYPE_TRIGGER\\n"
+  "mass: 0.0\\n"
+  "friction: 0.1\\n"
+  "restitution: 0.5\\n"
+  "group: \\\"default\\\"\\n"
+  "mask: \\\"default\\\"\\n"
+  "embedded_collision_shape {\\n"
+  "  shapes {\\n"
+  "    shape_type: TYPE_SPHERE\\n"
+  "    position {\\n"
+  "      x: -387.0\\n"
+  "      y: -37.0\\n"
+  "      z: 0.0\\n"
+  "    }\\n"
+  "    rotation {\\n"
+  "      x: 0.0\\n"
+  "      y: 0.0\\n"
+  "      z: 0.0\\n"
+  "      w: 1.0\\n"
+  "    }\\n"
+  "    index: 0\\n"
+  "    count: 1\\n"
+  "  }\\n"
+  "  data: 23.4065\\n"
+  "}\\n"
+  "linear_damping: 0.0\\n"
+  "angular_damping: 0.0\\n"
+  "locked_rotation: false\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 152.0
+    y: 171.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}

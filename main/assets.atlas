@@ -1,0 +1,131 @@
+images {
+  image: "/main/images/DOT.png"
+}
+images {
+  image: "/main/images/hand-dmg-0.png"
+}
+images {
+  image: "/main/images/ring-back.png"
+}
+images {
+  image: "/main/images/spork.png"
+}
+images {
+  image: "/main/images/table-bg.png"
+}
+images {
+  image: "/main/images/f1-off.png"
+}
+images {
+  image: "/main/images/f2-off.png"
+}
+images {
+  image: "/main/images/f3-off.png"
+}
+images {
+  image: "/main/images/f4-off.png"
+}
+images {
+  image: "/main/images/f5-off.png"
+}
+images {
+  image: "/main/images/hand-base.png"
+}
+images {
+  image: "/main/images/f1-d0.png"
+}
+images {
+  image: "/main/images/f1-d1.png"
+}
+images {
+  image: "/main/images/f1-d2.png"
+}
+images {
+  image: "/main/images/f1-d3.png"
+}
+images {
+  image: "/main/images/f2-d0.png"
+}
+images {
+  image: "/main/images/f2-d1.png"
+}
+images {
+  image: "/main/images/f2-d2.png"
+}
+images {
+  image: "/main/images/f2-d3.png"
+}
+animations {
+  id: "f1"
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 2
+  flip_horizontal: 0
+  flip_vertical: 0
+}
+animations {
+  id: "f2"
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 2
+  flip_horizontal: 0
+  flip_vertical: 0
+}
+animations {
+  id: "f3"
+  images {
+    image: "/main/images/f3-d0.png"
+  }
+  images {
+    image: "/main/images/f3-d1.png"
+  }
+  images {
+    image: "/main/images/f3-d2.png"
+  }
+  images {
+    image: "/main/images/f3-d3.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 2
+  flip_horizontal: 0
+  flip_vertical: 0
+}
+animations {
+  id: "f4"
+  images {
+    image: "/main/images/f4-d0.png"
+  }
+  images {
+    image: "/main/images/f4-d1.png"
+  }
+  images {
+    image: "/main/images/f4-d2.png"
+  }
+  images {
+    image: "/main/images/f4-d3.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 2
+  flip_horizontal: 0
+  flip_vertical: 0
+}
+animations {
+  id: "f5"
+  images {
+    image: "/main/images/f5-d0.png"
+  }
+  images {
+    image: "/main/images/f5-d1.png"
+  }
+  images {
+    image: "/main/images/f5-d2.png"
+  }
+  images {
+    image: "/main/images/f5-d3.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 2
+  flip_horizontal: 0
+  flip_vertical: 0
+}
+margin: 0
+extrude_borders: 1
+inner_padding: 0
